@@ -50,3 +50,6 @@ jspm_packages
 
 # Generated JavaScript
 *.js
+
+# Generated JS Mapping Files
+*js.map
