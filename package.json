@@ -4,7 +4,7 @@
   "description": "Test Driven Developement example with Javascript",
   "main": "main.js",
   "scripts": {
-    "postinstall": "node node_modules/bower/bin/bower install",
+    "postinstall": "node node_modules/bower/bin/bower install && cd public && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,20 +18,27 @@
   },
   "homepage": "https://github.com/Sly321/js-tdd#readme",
   "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
+    "@types/node": "^7.0.5",
+    "@types/protractor": "^4.0.0",
+    "@types/zone.js": "0.0.27",
+    "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-mocha": "^4.0.1",
     "gulp-typescript": "^3.1.5",
     "gulp-watch": "^4.3.11",
     "jasmine": "^2.5.3",
     "karma": "^1.5.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-ie-launcher": "^1.0.0",
+    "karma-chrome-launcher": "^2.0.0",
     "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "mocha": "^3.2.0",
     "phantomjs": "^2.1.7",
     "run-sequence": "^1.2.2",
-    "tsd": "^0.6.5"
+    "typescript": "^2.1.6"
   },
   "dependencies": {
     "body-parser": "^1.16.1",

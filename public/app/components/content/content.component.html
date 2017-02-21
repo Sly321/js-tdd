@@ -1,0 +1,18 @@
+<div class="content-wrapper">
+    <div class="content-container">
+        <!-- Example Code, feel free to delete moron !-->
+
+        <h1>{{ starWarsTitle + ' Images: ' + images }}</h1>
+
+        <!-- {{ Inline }} !-->
+        <img src="{{ resourceUrl }}admiral-akbar.png" />
+        <img src="{{ resourceUrl + 'death_star.png' }}" />
+        <img src="{{ resourceUrl + 'at' }}-at.png" />
+
+        <!-- [Binding] !-->
+        <img [src]="resourceUrl + 'clone.png'" /> <!-- Works !-->
+<!--    <img src="resourceUrl + 'at-at.png'" />  Doesn't Work !-->
+
+        <!-- Example Code, End <3 !-->
+    </div>
+</div>
