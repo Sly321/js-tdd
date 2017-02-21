@@ -49,8 +49,9 @@ jspm_packages
 .yarn-integrity
 
 # Generated JavaScript
-/*/*.js
+/*/**/*.js
 server.js
+main.js
 
 # Generated JS Mapping Files
 *js.map

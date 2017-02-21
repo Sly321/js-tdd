@@ -1,4 +1,4 @@
-class Person {
+class Person2 {
     firstName: string;
     lastName: string;
 
@@ -9,10 +9,10 @@ class Person {
 }
 
 /** asdf */
-function hello(person: Person) {
+function hello(person) {
     console.log(`Hello ${person.firstName} ${person.lastName}`);
 }
 
-let sven = new Person("Sven", "Liebig");
+let sven = new Person2("Sven", "Liebig");
 
 hello(sven);
