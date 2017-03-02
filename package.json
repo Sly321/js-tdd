@@ -1,6 +1,6 @@
 {
   "name": "js-tdd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test Driven Developement example with Javascript",
   "main": "main.js",
   "scripts": {

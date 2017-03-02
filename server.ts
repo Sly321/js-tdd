@@ -1,12 +1,12 @@
-let express = require('express');
-let path = require('path');
-let voting = require('./controllers/voting');
+let express = require("express");
+let path = require("path");
+let voting = require("./controllers/voting");
 let app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set("port", process.env.PORT || 3000);
 
 // parsing req/res
-let bodyParser = require('body-parser');
+let bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false })); // parse application/x-www-form-urlencoded
 app.use(bodyParser.json()); // parse application/json
 
